@@ -24,8 +24,9 @@ public class BaseicTest {
 	  
 	  UiAutomator2Options option= new UiAutomator2Options();
 	  option.setDeviceName("Pixcel4a");
-	  option.setApp("D:\\AppiumWork\\Appium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
-	  System.out.println(option.getPlatformName());
+	  option.setApp("C:\\Users\\kanch\\git\\appiumRepository\\Appium\\src\\test\\java\\apk\\ApiDemos-debug.apk");
+	  
+	  System.out.println("Platform is "+option.getPlatformName());
 	  System.out.println("Capabilities set");
 	  
 	  driver=new AndroidDriver(appiumRunOn, option);
