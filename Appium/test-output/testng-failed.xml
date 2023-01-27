@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Appium.StartAppium.BaseicTest">
+      <class name="com.eCommerce.TestCase1">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
+          <include name="fillForm"/>
           <include name="afterClass"/>
-          <include name="startDriver"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.Appium.StartAppium.BaseicTest -->
+      </class> <!-- com.eCommerce.TestCase1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

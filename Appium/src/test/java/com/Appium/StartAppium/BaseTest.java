@@ -80,15 +80,14 @@ public class BaseTest {
 	  driver.pressKey(new KeyEvent(AndroidKey.HOME));
   }
   
-
   @AfterClass
-  public void afterClass() throws InterruptedException {
+  public void tearDown() throws InterruptedException {
 	  
 	  System.out.println("End of TestsuiteExecution");
-	  
+	  service.stop();
 	  driver.quit();
 	  Thread.sleep(1000);
-	  service.stop();
+	  
 	  
   }
 

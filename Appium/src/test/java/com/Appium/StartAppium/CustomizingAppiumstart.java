@@ -23,9 +23,11 @@ public class CustomizingAppiumstart {
 	public static AppiumDriverLocalService service;
 	  
   @Test
-  public void launchApp() {
+  public void launchApp()
+  {
 	 
   }
+  
   @BeforeMethod
   public void beforeMethod() throws MalformedURLException {
 	  System.out.println("Launching app Test started");
